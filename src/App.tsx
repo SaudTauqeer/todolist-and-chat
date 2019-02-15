@@ -6,7 +6,6 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import LandingPage from './Components/LandingPage';
 import MobileNavbar from './Components/MobileNavbar';
 import Navbar from './Components/Navbar';
-import Test from './Components/LandingPage/test';
 
 class App extends Component {
 	render() {
