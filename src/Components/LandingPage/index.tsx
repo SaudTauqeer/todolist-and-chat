@@ -1,11 +1,16 @@
 //Imports
-import React from 'react';
+import React, { useEffect } from 'react';
 import Body from './Body';
 
-const Index = () => (
-	<React.Fragment>
-		<Body />
-	</React.Fragment>
-);
+function Index() {
+	useEffect(() => {
+		document.title = 'Todo-Home';
+	});
+	return (
+		<React.Fragment>
+			<Body />
+		</React.Fragment>
+	);
+}
 
 export default Index;
