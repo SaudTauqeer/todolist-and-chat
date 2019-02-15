@@ -16,7 +16,6 @@ class App extends Component {
 				<Router>
 					<Switch>
 						<Route exact path="/" component={LandingPage} />
-						<Route exact path="/test" component={Test} />
 					</Switch>
 				</Router>
 			</React.Fragment>
