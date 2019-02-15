@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import Body from './Body';
 
-function Index() {
+const Index = () => {
 	useEffect(() => {
 		document.title = 'Todo-Home';
 	});
@@ -11,6 +11,6 @@ function Index() {
 			<Body />
 		</React.Fragment>
 	);
-}
+};
 
 export default Index;
