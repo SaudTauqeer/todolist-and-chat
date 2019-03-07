@@ -1,1 +1,1 @@
-web: serve
+web: serve -s build
