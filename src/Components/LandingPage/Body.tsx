@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import Hidden from '@material-ui/core/Hidden';
 import Typist from 'react-typist';
-import Navbar from '../Navbar';
+import Navbar from './Navbar';
 import MobileNavbar from '../MobileNavbar';
 import DesktopSocials from './DesktopSocials';
 import MobileSocials from './MobileSocials';
