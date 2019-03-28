@@ -49,8 +49,10 @@ class Body extends Component {
 									<Typist.Backspace count={25} delay={1000} />
 									But with a twist.
 									<Typist.Backspace count={17} delay={1000} />
-									You can also chat with online users. Pretty cool ye?
-									<Typist.Backspace count={53} delay={500} />
+									You can also chat with online users.
+									<Typist.Backspace count={36} delay={500} />
+									Pretty cool ye?
+									<Typist.Backspace count={15} delay={500} />
 								</Typist>
 							</Typography>
 						</Grid>
