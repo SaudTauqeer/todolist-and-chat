@@ -7,7 +7,11 @@ const index = () => {
 	});
 
 	return (
-		<div style={{ marginTop: '4.2em' }}>
+		<div
+			style={{
+				marginTop: '4.2em'
+			}}
+		>
 			<TodoItems />
 		</div>
 	);
