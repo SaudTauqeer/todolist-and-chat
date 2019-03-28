@@ -11,10 +11,10 @@ const TodoItems = () => {
 					xs={3}
 					style={{
 						marginLeft: '4px',
-						height: '88vh',
+						height: '100vh',
 						overflow: 'auto',
 						overflowY: 'hidden',
-						paddingTop: '3px'
+						paddingTop: '0px'
 					}}
 				>
 					<Scrollbars autoHide={true} autoHideTimeout={2000} autoHideDuration={400}>
