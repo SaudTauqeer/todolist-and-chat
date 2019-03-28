@@ -9,7 +9,7 @@ const Navbar = () => {
 		if (document.title === 'Todo-Home') {
 			SetLoginButtonTextValue('Login');
 		} else {
-			'';
+			SetLoginButtonTextValue('Logout');
 		}
 	});
 
