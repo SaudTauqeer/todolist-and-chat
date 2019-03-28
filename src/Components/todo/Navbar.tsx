@@ -6,8 +6,10 @@ const Navbar = () => {
 	const [ LoginButtonText, SetLoginButtonTextValue ] = useState('');
 
 	useEffect(() => {
-		if (document.title === 'Todo-Home') {
-			SetLoginButtonTextValue('Login');
+		document.title = 'Todo';
+
+		if (document.title === 'Todo') {
+			SetLoginButtonTextValue('Logout');
 		}
 	});
 

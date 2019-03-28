@@ -5,7 +5,7 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 //Router Components
 import LandingPage from './Components/LandingPage';
 import Guest from './Components/Guest';
-import Todo from './Components/todo';
+import Todo from './Components/Todo';
 class App extends Component {
 	render() {
 		return (
