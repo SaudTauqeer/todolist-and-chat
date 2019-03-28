@@ -6,7 +6,7 @@ const index = () => {
 	return (
 		<div
 			style={{
-				marginTop: '4.2em'
+				marginTop: '0'
 			}}
 		>
 			<Navbar />
