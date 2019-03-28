@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
+import TodoItems from './TodoItems';
 
 const index = () => {
 	useEffect(() => {
@@ -6,9 +7,9 @@ const index = () => {
 	});
 
 	return (
-		<React.Fragment>
-			<div>hello</div>
-		</React.Fragment>
+		<div style={{ marginTop: '4.2em' }}>
+			<TodoItems />
+		</div>
 	);
 };
 
