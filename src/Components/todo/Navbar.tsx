@@ -14,20 +14,21 @@ const Navbar = () => {
 	});
 
 	return (
-		<Grid
-			container
-			justify="flex-end"
-			direction="row"
-			style={{ marginTop: '1em', position: 'absolute', paddingRight: '1em' }}
-		>
-			<Grid item>
-				<Button variant="contained" color="secondary" size="large">
-					<Typography variant="button" color="inherit">
-						{LoginButtonText}
-					</Typography>
-				</Button>
-			</Grid>
-		</Grid>
+		<React.Fragment>
+			<AppBar color="inherit">
+				<Toolbar>
+					<Grid container justify="flex-end">
+						<Grid item>
+							<Button variant="contained" color="secondary" size="large">
+								<Typography variant="button" color="inherit">
+									{LoginButtonText}
+								</Typography>
+							</Button>
+						</Grid>
+					</Grid>
+				</Toolbar>
+			</AppBar>
+		</React.Fragment>
 	);
 };
 
